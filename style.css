@@ -1,0 +1,49 @@
+body {
+    background-color: beige;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    background-color: coral;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: cornsilk;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header button {
+    background-color: rgb(73, 118, 29);
+    color: floralwhite;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+header button:hover {
+    background-color: rgb(162, 23, 23);
+}
+
+main button {
+    background-color: rgb(21, 112, 21);
+    color: honeydew;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.first {
+    text-align: center;
+    padding: 100px;
+    background-image: url(Avengers.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+main h1 {
+    background-color: lightcyan;
+}
